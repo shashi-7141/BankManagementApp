@@ -1,0 +1,15 @@
+
+## 🗄 Database Setup (MySQL)
+Run the following script in MySQL Workbench or CLI:
+
+```sql
+CREATE DATABASE bankdb;
+USE bankdb;
+
+CREATE TABLE customers (
+    account_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(20),
+    balance DOUBLE
+);
