@@ -6,7 +6,7 @@ This is a Bank Management System built using Java, JDBC, and MySQL. It is a cons
 
 #Clone this repository:
 
-git clone https://github.com/<your-username>/BankManagementJDBC.git
+git clone https://github.com/shashi-7141/BankManagementJDBC.git
 cd BankManagementJDBC
 
 
